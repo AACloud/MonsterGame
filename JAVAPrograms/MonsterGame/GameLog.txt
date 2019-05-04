@@ -1,0 +1,4 @@
+Luigi
+Orc has been Defeated
+Skeleton has been Defeated
+THE END
