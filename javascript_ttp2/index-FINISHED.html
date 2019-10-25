@@ -18,8 +18,7 @@
 
   <style>
     html {
-      /* background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=5); */
-      background: #018DED url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperbro.com%2Fimg%2F124218.jpg&imgrefurl=https%3A%2F%2Fwallpaperbro.com%2Fkingdom-hearts-hd&docid=0UvXFSaytr6XUM&tbnid=h1pN4FFWEUWLqM%3A&vet=10ahUKEwj9nc7pubblAhXpV98KHWUgChkQMwijASgrMCs..i&w=1420&h=894&bih=631&biw=926&q=kingdom%20hearts%203%20background&ved=0ahUKEwj9nc7pubblAhXpV98KHWUgChkQMwijASgrMCs&iact=mrc&uact=8);
+      background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=5); /* Used for the background*/
       background-size: cover;
       font-family: 'helvetica neue';
       text-align: center;
@@ -36,7 +35,7 @@
     }
 
     .clock {
-      width: 30rem;
+      width: 30rem; /* Used for outer layer of the clock*/
       height: 30rem;
       border: 20px solid white;
       border-radius: 50%;
@@ -71,6 +70,7 @@
 </style>
 
 <script>
+  /* The JavaScript Code used to get the time in the clock*/
   const secondHand = document.querySelector('.second-hand');
   const minsHand = document.querySelector('.min-hand');
   const hourHand = document.querySelector('.hour-hand');
